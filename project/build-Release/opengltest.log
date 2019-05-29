@@ -1,0 +1,71 @@
+﻿Build started 29/06/2015 01:13:46.
+     1>Project "C:\Users\Admin\CGUE\opengltest\opengltest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Admin\CGUE\opengltest\External\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Admin\CGUE\opengltest\build-Release\\" /Fd"C:\Users\Admin\CGUE\opengltest\build-Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\admin\cgue\opengltest\SimpleEnemy.h(111): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\admin\cgue\opengltest\SimpleEnemy.h(112): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\admin\cgue\opengltest\StationaryEnemy.h(82): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\admin\cgue\opengltest\objModel.h(157): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\admin\cgue\opengltest\objModel.h(168): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\cgue\opengltest\objModel.h(176): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\cgue\opengltest\objModel.h(181): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\cgue\opengltest\objModel.h(187): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\cgue\opengltest\objModel.h(193): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>main.cpp(172): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(173): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(174): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(322): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(500): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(519): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(606): warning C4101: 'platform' : unreferenced local variable
+     1>main.cpp(605): warning C4101: 'upgrade' : unreferenced local variable
+     1>main.cpp(825): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(826): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(827): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(936): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>main.cpp(1879): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1880): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1952): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2094): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2112): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2196): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2254): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2304): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2419): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2443): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(2538): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\CGUE\opengltest\Release\CGUE_Boxtacle.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Admin\CGUE\opengltest\External\Lib glfw3.lib opengl32.lib glew32.lib FreeImage.lib assimp.lib freetype.lib SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2test.lib DevIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\CGUE\opengltest\Release\CGUE_Boxtacle.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\CGUE\opengltest\Release\CGUE_Boxtacle.lib" /MACHINE:X86 /SAFESEH "C:\Users\Admin\CGUE\opengltest\build-Release\resource.res"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\2DObject.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Enemy.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\FrustumG.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\HUDObject.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Cube.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Letter.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\main.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Model.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Plane.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Room.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\SceneObject.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Shader.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Bullet.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Text.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Texture.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Upgrade.obj"
+         "C:\Users\Admin\CGUE\opengltest\build-Release\Util.obj"
+         Generating code
+     1>c:\users\admin\cgue\opengltest\main.cpp(559): warning C4715: 'SDL_main' : not all control paths return a value
+         Finished generating code
+         opengltest.vcxproj -> C:\Users\Admin\CGUE\opengltest\Release\CGUE_Boxtacle.exe
+     1>Done Building Project "C:\Users\Admin\CGUE\opengltest\opengltest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.08
